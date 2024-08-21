@@ -187,7 +187,7 @@ def data_rows(df):
             else:
                 print(df.iloc[x:y])
                 x = y
-                y += 4000
+                y += 5
                 user_confirmation = input('Would you like the next 5 rows? Type "yes" to continue\n').lower()
 
 
